@@ -1,0 +1,24 @@
+{
+  "name": "supabase-auth-proxy",
+  "version": "1.0.0",
+  "description": "JWT authentication proxy for protecting internal APIs with Supabase Auth",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "supabase",
+    "auth",
+    "proxy",
+    "jwt"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "@supabase/supabase-js": "^2.39.0",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5"
+  }
+}
